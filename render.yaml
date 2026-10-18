@@ -1,0 +1,24 @@
+# Render Blueprint for the Groups realtime backend (free plan, no card).
+# Data lives in Postgres (e.g. Neon) via DATABASE_URL; the free instance's disk is temporary.
+services:
+  - type: web
+    name: groups-live
+    runtime: docker
+    plan: free
+    region: ohio  # next to the Neon database (AWS us-east-2)
+    healthCheckPath: /health
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+      - key: GROUPS_ORIGINS
+        sync: false
+      - key: BETTER_AUTH_URL
+        sync: false
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: GROUPS_AI_PROVIDER
+        value: openai
+      - key: GROUPS_AI_MODEL
+        value: gpt-6-luna
+      - key: GROUPS_TRUST_PROXY
+        value: "true"

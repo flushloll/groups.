@@ -1,0 +1,9 @@
+node_modules
+dist
+.groups-data
+.env
+.env.*
+!.env.example
+tests/browser/screenshots
+*.tsbuildinfo
+.DS_Store

@@ -1,0 +1,28 @@
+export type BoardElement = {
+  id: string;
+  type: string;
+  version: number;
+  versionNonce?: number;
+  isDeleted?: boolean;
+  x: number;
+  y: number;
+  width: number;
+  height: number;
+  angle?: number;
+  strokeColor?: string;
+  backgroundColor?: string;
+  strokeWidth?: number;
+  opacity?: number;
+  text?: string;
+  fontSize?: number;
+  textAlign?: string;
+  verticalAlign?: string;
+  containerId?: string | null;
+  points?: [number, number][];
+  roundness?: unknown;
+  [key: string]: unknown;
+};
+export const BOARD_LIMITS: { elements: number; bytes: number };
+export function mergeBoardElements(current?: BoardElement[], incoming?: BoardElement[]): BoardElement[];
+export function boardText(elements?: BoardElement[]): string[];
+export function notesToElements(notes?: string[], title?: string): BoardElement[];

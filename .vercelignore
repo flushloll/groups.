@@ -1,0 +1,11 @@
+node_modules
+dist
+.groups-data
+.env
+.env.*
+!.env.example
+tests
+scripts
+Dockerfile
+render.yaml
+*.tsbuildinfo
