@@ -42,6 +42,8 @@ The lobby shows live miniatures of each space's real contents. Every change is s
 
 ### More images
 
+Some fun pictures.
+
 | Neon City | Odd Photo |
 | --- | --- |
 | ![Neon City](docs/images/Neon_City.png) | ![Odd Photo](docs/images/Odd_Photo.png) |
