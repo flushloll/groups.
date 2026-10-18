@@ -41,6 +41,10 @@ The lobby shows live miniatures of each space's real contents. Every change is s
 <img src="docs/images/phone.png" alt="Phone layout with touch controls" width="260" />
 
 ### More images
+
+| ![Neon City](docs/images/neon_city.png) |
+
+| ![Odd Photo](docs/images/odd_photo.png) |
 <!--
 Add your own screenshots or GIFs here, for example:
 ![Building a cabin with friends](docs/images/cabin.gif)
