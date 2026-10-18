@@ -50,7 +50,7 @@ Add your own screenshots or GIFs here, for example:
 ![Building a cabin with friends](docs/images/cabin.gif)
 ![Night-sky theme](docs/images/night-sky.png)
 -->
-_Screenshots of your own builds go here._
+<!--_Screenshots of your own builds go here._-->
 
 ## Run it
 
