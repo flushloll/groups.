@@ -42,9 +42,9 @@ The lobby shows live miniatures of each space's real contents. Every change is s
 
 ### More images
 
-| ![Neon City](docs/images/Neon_City.png) |
+![Neon City](docs/images/Neon_City.png)
 
-| ![Odd Photo](docs/images/Odd_Photo.png) |
+![Odd Photo](docs/images/Odd_Photo.png)
 <!--
 Add your own screenshots or GIFs here, for example:
 ![Building a cabin with friends](docs/images/cabin.gif)
